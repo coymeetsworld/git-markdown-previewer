@@ -1,7 +1,7 @@
 {
   "name": "fcc-markdown-previewer",
   "version": "1.0.0",
-  "description": "Simple react app",
+  "description": "FreeCodeCamp DataVis Curriculum project to implement a markdown previewer in React.",
   "engines" : {
     "node": "v7.3.0",
     "npm": "3.10.6"
@@ -13,23 +13,18 @@
   "author": "Coy Sanders",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.15.3",
     "babel-core": "^6.5.1",
     "babel-loader": "^6.2.2",
     "babel-preset-es2015": "^6.5.0",
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "^6.16.0",
     "css-loader": "^0.23.1",
-    "expect": "^1.14.0",
     "express": "^4.14.0",
-    "jquery": "^2.2.1",
     "marked": "^0.3.6",
     "node-sass": "^3.13.0",
     "normalize-scss": "^6.0.0",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
-    "react-router": "^2.0.0",
-    "react-addons-test-utils": "^0.14.6",
     "sass-loader": "^4.0.2",
     "script-loader": "^0.6.1",
     "style-loader": "^0.13.0",
