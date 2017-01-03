@@ -5,22 +5,19 @@ module.exports = {
 	
 	/* Where it should start processing your code. */
 	entry: [
-		'script!jquery/dist/jquery.min.js', /* script loader */
 		'./app/app.jsx',
-	],
-	externals: {
-		jquery: 'jQuery'	
-	},
-	plugins: [
-		new webpack.ProvidePlugin({				
-			$: "jquery", /* allows us to not specify requring jQuery files in jsx files */
-			jQuery: "jquery"
-		})
 	],
 	output: {
 		path: __dirname,
 		filename: './public/bundle.js'
 	},
+	plugins: [
+	  new webpack.optimize.UglifyJsPlugin({
+      compressor: {
+        warnings: false
+      }   
+    }), 
+	],
 	resolve: {			
 		root: __dirname, /* variable in node.js that gives path to file you're in */
 		modulesDirectories: [
