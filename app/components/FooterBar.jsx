@@ -9,7 +9,7 @@ class FooterBar extends React.Component {
 	render () {
 		return (
 			<div className="footerBar">
-				<p>source code can be found on my <a href="https://github.com/coymeetsworld/FreeCodeCampProjects/tree/master/DataVis-React/MarkdownPreviewer" target="_blank">Github page</a> - Coy Sanders © 2017</p>	
+				<p>source code can be found on my <a href="https://github.com/coymeetsworld/fcc-markdown-previewer" target="_blank">Github page</a> - Coy Sanders © 2017</p>	
 			</div>
 		);
 	}
