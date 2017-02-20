@@ -9,11 +9,11 @@ class MainSection extends React.Component {
 	  this.handleUserInput = this.handleUserInput.bind(this);
 
 	  let defaultInputData = `
-Heading
+# Heading
 		
 =======
 
-Sub-heading
+## Sub-heading
 -----------
  
 ### Another deeper heading
