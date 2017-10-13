@@ -9,5 +9,5 @@ FreeCodeCamp React project in the Data Visualization curriculum. Provides a prev
 
 ## Working Demo
 
-*[http://fcc-markdown-previewer.herokuapp.com/](http://fcc-markdown-previewer.herokuapp.com/)*
+*[https://coymeetsworld.github.io/git-markdown-previewer/](https://coymeetsworld.github.io/git-markdown-previewer/)*
 
